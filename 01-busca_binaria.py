@@ -13,16 +13,10 @@ def buscaBinaria(lista: list, item: int):
       else:
         min = meio + 1
     return None
-  
+
+# Testes do livro
 lista_teste = [1,3,5,7,9]
 # Case test 1
 print(buscaBinaria(lista_teste, 3)) # => 1
 # Case test 2
 print(buscaBinaria(lista_teste, -1))
-
-teste_cria = []
-i = 1
-while i <= 129:
-  teste_cria.append(i)
-  i += 1
-  
