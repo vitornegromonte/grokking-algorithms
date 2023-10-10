@@ -25,6 +25,6 @@ func binarySearch(list []int, target int) int {
 func main() {
 	sample_list := []int{1, 3, 5, 7, 9}
 
-	fmt.Println(binarySearch(sample_list, 3))
-	fmt.Println(binarySearch(sample_list, -1))
+	fmt.Println(binarySearch(sample_list, 3))  // => 1
+	fmt.Println(binarySearch(sample_list, -1)) // => -1 (no value -1 in sample_list)
 }
